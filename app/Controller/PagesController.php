@@ -38,6 +38,9 @@ class PagesController extends AppController {
 	function home(){
 
 	}
+    function gyc_countdown(){
+        $this->layout = 'Empty';
+    }
 	function test(){
 		$this->layout=null;
 	}
